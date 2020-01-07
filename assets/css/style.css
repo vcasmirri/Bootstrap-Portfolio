@@ -81,6 +81,26 @@ html a:hover {
     width: 95%;
 }
 
+/* Styles portfolio page/gallery */
+
+.gallery-image {
+    background-size: 100%;
+    position: relative;
+    width: 100%;
+}
+  
+.image-caption {
+color: #ffffff;
+background-color: #4aaaa5;
+font-size: 16px;
+font-family: 'Georgia', Times, Times New Roman, serif;
+position: absolute;
+display: block;
+bottom: 10px;
+left: 15px;
+right: 15px;
+}
+
 /* Styles footer */
 
 #footer {
