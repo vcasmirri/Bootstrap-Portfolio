@@ -8,7 +8,7 @@ body {
     font-size: 16px;
 }
 
-/* Styles header and body containers */
+/* Styles header/main navigation */
 
 #header-wrapper {
     border-bottom: 2px solid #cccccc;
@@ -38,6 +38,7 @@ body {
     font-size: 18px;
     margin: 15px;
     color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #center-navlink {
@@ -47,4 +48,55 @@ body {
 
 html a:hover {
     text-decoration: none !important;
+}
+
+/* Styles main content section */
+
+#main-body {
+    padding: 0;
+}
+
+.main-content{
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+  
+#main-content-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    display: block;
+    padding: 0;
+}
+
+.divider {
+    border: 1px solid #ddd;
+}
+
+#avatar {
+    max-width: 500px;
+    border-radius: 3px;
+    float: left;
+    width: 95%;
+}
+
+/* Styles footer */
+
+#footer {
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    font-size: 10px;
+    color: #ccc;
+    clear: both;
+}
+
+
+/* (Limited) Media Queries */
+
+@media screen and (max-width: 768px) {
+
+    #header-wrapper {
+        max-width: 768px;
+    }
 }
