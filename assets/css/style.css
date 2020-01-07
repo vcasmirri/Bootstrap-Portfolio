@@ -32,7 +32,7 @@ body {
 
 .navlink {
     font-size: 18px;
-    margin: 15px;
+    /* margin: 15px; */
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
