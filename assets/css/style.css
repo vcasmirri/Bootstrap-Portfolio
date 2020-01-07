@@ -1,7 +1,3 @@
-/* * {
-    box-sizing: border-box;
-  } */
-
 body {
     background-image: url("../images/papyrus.png");
     background-repeat: repeat;
@@ -101,6 +97,24 @@ left: 15px;
 right: 15px;
 }
 
+/* Styles contact page/forms */
+
+.col-form-label {
+    padding-left: 0;
+}
+
+.form-control {
+    padding-left: 0;
+}
+
+.form-text {
+    padding-left: 0;
+}
+
+#messageContent {
+  height: 125px;
+}
+
 /* Styles footer */
 
 #footer {
@@ -109,14 +123,4 @@ right: 15px;
     font-size: 10px;
     color: #ccc;
     clear: both;
-}
-
-
-/* (Limited) Media Queries */
-
-@media screen and (max-width: 768px) {
-
-    #header-wrapper {
-        max-width: 768px;
-    }
 }
