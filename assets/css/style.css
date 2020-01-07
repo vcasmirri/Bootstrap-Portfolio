@@ -5,4 +5,46 @@
 body {
     background-image: url("../images/papyrus.png");
     background-repeat: repeat;
+    font-size: 16px;
+}
+
+/* Styles header and body containers */
+
+#header-wrapper {
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+}
+
+#nav-container {
+    padding: 0;
+}
+
+#brand {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+#name {
+    display: block;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin-bottom: 0;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 1.75rem;
+    font-weight: bold;
+  }
+
+.navlink {
+    font-size: 18px;
+    margin: 15px;
+    color: #777777;
+}
+
+#center-navlink {
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+}
+
+html a:hover {
+    text-decoration: none !important;
 }
