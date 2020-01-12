@@ -87,7 +87,7 @@ html a:hover {
   
 .image-caption {
 color: #ffffff;
-background-color: #4aaaa5;
+background-color: rgba(75, 170, 165, 0.8);
 font-size: 16px;
 font-family: 'Georgia', Times, Times New Roman, serif;
 position: absolute;
