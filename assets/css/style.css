@@ -124,3 +124,17 @@ right: 15px;
     color: #ccc;
     clear: both;
 }
+
+/* Styles buttons */
+
+.btn {
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+/* Styles flush list */
+
+.contactIcon {
+    margin-left: -10px;
+    margin-right: 5px;
+}
